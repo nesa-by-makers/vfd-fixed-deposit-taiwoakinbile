@@ -1,0 +1,78 @@
+ header{
+	 color: white;
+	 background-color:#25215f;
+	 width:92%;
+	 height: 40px;
+	 padding:40px;
+	 font-family: Calibri;
+	}
+	
+header img{
+		float: left;
+}
+	
+h1{
+	text-align: right;
+	font-weight: 100;
+}
+	  
+ body{
+	  width: 75%;
+	  margin: 0 auto;
+	 
+  }
+  
+ div{
+	  background-color: #faf8f8;
+	  
+ }
+ 
+ label {
+	display: inline-block;
+  width: 40%;
+  text-align: left;
+  font-family: Calibri;
+ }
+ 
+ form{
+	padding: 5%;
+	font-family: Arial;
+
+ }
+ 
+ p{
+	 text-align: center;
+	  margin-left:10%;
+	  color:#25215f;
+	 margin-right:10%;
+	
+ }
+ 
+ h4{
+	 color:white;
+	 background-color:#25215f;
+	 text-align: center;
+	 width: 30%;
+
+ }
+ 
+ input, textarea{
+	 box-sizing: border-box;
+	 width: 50%;
+	 /*margin-left: 15%;*/
+	 font-family: Arial;
+	 		 
+ }
+ 
+ 
+ textarea{
+	 vertical-align: top;
+	 
+ }
+ 
+ fieldset{
+	 
+ }
+ button{
+	 margin-left: 45%
+ }
