@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script ></script>
+     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <style>
+    @media screen and (min-width: 992px){
+         header{
+	 background-color:#25215f;
+	 width:92%;
+	 height: 40px;
+	 padding:40px;
+	 font-family: Calibri;
+	}
+	
+header img{
+		float: left;
+}
+	
+h1{
+	text-align: right;
+	font-weight: 100;
+}
+	  
+ body{
+	  width: 75%;
+	  margin: 0 auto;
+	 
+  }
+  
+ div{
+	  background-color: #faf8f8;
+	  
+ }
+ 
+ label {
+	display: inline-block;
+  width: 40%;
+  text-align: left;
+  font-family: Calibri;
+ }
+ 
+ form{
+	padding: 5%;
+	font-family: Arial;
+
+ }
+ 
+ p{
+	 text-align: center;
+	  margin-left:10%;
+	  color:#25215f;
+	 margin-right:10%;
+	
+ }
+ 
+ h4{
+	 color:white;
+	 background-color:#25215f;
+	 text-align: center;
+	 width: 30%;
+
+ }
+ 
+ input, textarea{
+	 box-sizing: border-box;
+	 width: 50%;
+	 /*margin-left: 15%;*/
+	 font-family: Arial;
+	 		 
+ }
+ 
+ 
+ textarea{
+	 vertical-align: top;
+	 
+ }
+ 
+ fieldset{
+	 
+ }
+ button{
+	 margin-left: 45%
+ }
+    };
+    </style>
+</head>
+<body>
+	
+<img src="img.jpg" width="28%" >
+<h1>FIXED DEPOSIT PLACEMENT FORM</h1>
+</header>
+
+<p> Thank you for choosing to invest with VFDBridge.We are pleased to have  opportunity to offer our services to you.<br>
+	Kindly provide ALL your details below(as applicable)to aid the processing of your placement: 
+
+
+	
+	
+			<form action="contact.php">
+				<label for="name"> FULL NAME </label> <input type="text" name="fullname" value="fullname"><br><br>
+				<label for="name"> PHONE NUMBER </label> <input type="number" name="phonenumber" value="number"><br><br>
+				<label for="name"> RESIDENTIAL ADDRESS </label> <textarea rows="5px" col="35%" name="address"></textarea><br><br>
+				<label for="name"> OFFICE ADDRESS </label> <input type="text" name="officeaddress" ><br><br>
+				<label for="name"> OCCUPATION </label> <input type="text" name="occupation"> <br><br>
+		</div>	
+				
+		<div class="row">		
+	<h4> PLACEMENT INFORMATION</h4>
+				<fieldset>
+				<label for="name"> PROPOSED DURATION </label> <input type="text" name="duration"> <br><br>
+				<label for="name"> AMOUNT </label> <input type="text" name="amount" value="amount"> <br><br>
+				</fieldset><br>
+		</div>
+		
+		<div class="row">
+	<h4>  PAYOUT DETAILS</h4>
+				<fieldset>
+				<label for="name"> ACCOUNT NUMBER </label>  <input type="text" name="accountnumber"> <br><br>
+				<label for="name"> ACCOUNT NAME </label>  <input type="text" name="accountname"> <br><br>
+				<label for="name"> NAME OF BANK </label> <input type="text" name="bank" > <br><br>
+				</fieldset><br>
+		
+		<div class="row">
+	<h4> NEXT-OF-KIN DETAILS</h4>
+				<fieldset>
+				<label for="name"> NAME </label> <input type="text" name="name"> <br><br>
+				<label for="name"> PHONE NUMBER </label> <input type="number" name="phonenumber"> <br><br>
+				<label for="name"> EMAIL ADDRESS </label>  <input type="text" name="email" > <br><br>
+				<label for="name"> REFERENCE  <small>(Who referred the company to you)</small>  </label> 
+				<input type="text" name="reference" > <br><br>
+				</fieldset>
+	<br>
+				<button type= "button"> SUBMIT  </button>
+		</div>
+
+
+</form>
+</div>
+
+
+</body>
+</html>
