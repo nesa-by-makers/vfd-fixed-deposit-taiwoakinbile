@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+    <!-- Begin Page Content -->
+    <div id="container">
+        <form action="login.php" method="POST">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br>
+            <div id="lower">
+                <input type="checkbox" id="checkbox"><label class="check" for="checkbox">Keep me logged in</label><br>
+                <input type="submit" value="Login">
+            </div><!--/ lower-->
+        </form>
+    </div><!--/ container-->
+    <!-- End Page Content -->
+</body>
+</html>
