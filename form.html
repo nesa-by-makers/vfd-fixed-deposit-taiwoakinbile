@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="jquery-3.2.1.min.js" ></script>
+  <style>
+  
+         @media screen and (min-width: 300px)
+    {
+
+         
+        * {
+
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+            header{
+				background-color:#25215f;
+				width:100%;
+				height: 5%;
+				padding:40px;
+				font-family: Calibri;
+				}
+				
+			header img{
+					float: left;
+			}
+				
+			h1{
+				font-size: 38px;
+				text-align: right;
+				font-weight: 100;
+				color:white;
+		
+			}
+				
+			body{
+                width:75%;
+                margin: 0 auto;
+				background-color:#c44545;
+                
+				
+			}
+			
+			div.container{
+                width: auto;
+                background-color: white;
+				
+			}
+			
+			label {
+				display: inline-block;
+		
+			text-align: left;
+			font-family: Calibri;
+			}
+			
+			form{
+				padding: 5%;
+				font-family: Arial;
+
+			}
+			
+			p{
+				text-align: center;
+				margin-left:10%;
+				color:#25215f;
+				margin-right:10%;
+				
+			}
+			
+			h4{
+				color:white;
+				background-color:#25215f;
+				text-align: center;
+				width: 30%;
+
+			}
+			
+			input, textarea{
+				box-sizing: border-box;
+				width: 50%;
+				/*margin-left: 15%;*/
+				font-family: Arial;
+						
+			}
+			
+			
+			textarea{
+				vertical-align: top;
+				
+			}
+			
+			button{
+				margin-left: 45%;
+			}
+
+
+				
+		
+            @media  (min-width: 600px)
+            {
+             
+                
+            }
+    }          
+  </style>
+</head>
+<body>
+
+        
+         
+
+<div class="container">
+        <div class="row">
+				<header>
+					<img src="img.jpg" width="28%" >
+					<h1>FIXED DEPOSIT PLACEMENT FORM</h1>
+				</header>
+        </div>
+        <div class="row">
+                    <p class="small"> Thank you for choosing to invest with VFDBridge.We are pleased to have  opportunity to offer our services to you. <br>
+                    Kindly provide ALL your details below(as applicable)to aid the processing of your placement: 
+                    </p>
+        </div>
+
+    <form action="form.php" method="POST">
+        <div class="form-group">
+            <label for="fullname">FULL NAME </label>
+            <input type="text" class="form-control" id="name" placeholder="Enter fullname" name="fullname">
+            <p id="disp"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="number">Phone Number</label>
+            <input type="number" class="form-control" id="number" placeholder="Enter phonenumber" name="Pnumber">
+            <p id="disp1"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="addr"> Residential Address </label>
+            <input type="text" class="form-control" id="R_addr" placeholder="Enter Residential Address" name="R-addr">
+            <p id="disp2"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="addr"> Office Address </label>
+            <input type="text" class="form-control" id="O_addr" placeholder="Enter Office Address" name="O-addr">
+            <p id="disp3"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="Occupation"> Occupation </label>
+            <input type="text" class="form-control" id="occupation" placeholder="Enter Occupation" name="Occupation">
+            <p id="disp4"> </p>
+        </div>
+
+        <div class="row">
+            <h3> PLACEMENT INFORMATION </h3>
+        </div>
+
+        <div class="form-group">
+            <label for="duration"> Proposed Duration </label>
+            <input type="number" class="form-control" id="duration" placeholder="Enter Proposed Duration" name="Duration">
+            <p id="disp5"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="amount"> Amount </label>
+            <input type="number" class="form-control" id="amount" placeholder="Enter Amount" name="Amount">
+            <p id="disp6"> </p>
+        </div>
+  
+        <div class="row">
+            <h3> PLACEMENT INFORMATION </h3>
+        </div>
+
+        <div class="form-group">
+            <label for="accountNumber"> Account Number </label>
+            <input type="number" class="form-control" id="acctNum" placeholder="Enter Account Number" name="AcctNum">
+            <p id="disp7"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="accountName"> Account Name </label>
+            <input type="text" class="form-control" id="acctName" placeholder="Enter Account Name" name="AcctName">
+            <p id="disp8"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="bankname"> Name of Bank</label>
+            <input type="text" class="form-control" id="bankName" placeholder="Enter Bank Name" name="BankName">
+            <p id="disp9"> </p>
+        </div>
+
+        <div class="row">
+                <h3> NEXT OF KIN DETAILS </h3>
+        </div>
+    
+        <div class="form-group">
+            <label for="NKName">Name </label>
+            <input type="tsxt" class="form-control" id="NKName" placeholder="Enter Next of Kin Nam" name="NKName">
+            <p id="disp10"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="NKNumber">Phone Number </label>
+            <input type="number" class="form-control" id="NKNumber" placeholder="Enter Next of Kin Name" name="NKNumber">
+            <p id="disp11"> </p>
+        </div> 
+        
+        <div class="form-group">
+            <label for="NKEmail"> Email </label>
+           <input type="email" class="form-control" id="NKEmail" placeholder="Enter Next of Kin Email" name="NKEmail">
+           <p id="disp12"> </p>
+        </div>
+
+        <div class="form-group">
+            <label for="Reference">Reference </label>
+            <input type="text" class="form-control" id="Reference" placeholder="Enter Reference" name="Reference">
+            <p id="disp13"> </p>
+        </div>
+            
+
+
+        <button id="sub" type="submit" class="btn btn-default" onclick="myForm()">Submit</button>
+    </form>
+</div>
+<script>
+        $(document).ready(function(){
+            $(this).submit(function(e){
+                    e.preventDefault();
+                });
+                $("form").submit(function validate(){
+                var chec = $("#name").val();
+                if (isNaN(chec)){
+                    $("#disp").append("");
+                    
+                }
+                else
+                {
+                    $("#disp").append("not valid");
+                }		
+                });
+            });				
+    </script>
+</body>
+</html>
